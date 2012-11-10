@@ -1,0 +1,17 @@
+<aspectj>
+<aspects>
+<aspect name="com.vmware.com.web.LibrariesController_Roo_Controller"/>
+<aspect name="com.vmware.com.domain.Libraries_Roo_ToString"/>
+<aspect name="com.vmware.com.domain.Libraries_Roo_JavaBean"/>
+<aspect name="com.vmware.com.domain.Books_Roo_Finder"/>
+<aspect name="com.vmware.com.domain.Books_Roo_JavaBean"/>
+<aspect name="com.vmware.com.domain.Books_Roo_ToString"/>
+<aspect name="com.vmware.com.domain.Libraries_Roo_Finder"/>
+<aspect name="com.vmware.com.domain.Libraries_Roo_Entity"/>
+<aspect name="com.vmware.com.domain.Libraries_Roo_Configurable"/>
+<aspect name="com.vmware.com.domain.Books_Roo_Entity"/>
+<aspect name="com.vmware.com.web.BooksController_Roo_Controller"/>
+<aspect name="com.vmware.com.domain.Books_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

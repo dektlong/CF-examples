@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_vmware_com_domain_Books" modelAttribute="books" path="/bookses" z="TL9+3BuMRmIeJ17pUfhl8KNwtKY=">
+        <field:input field="bookISBN" id="c_com_vmware_com_domain_Books_bookISBN" validationMessageCode="field_invalid_integer" z="WfuloGXWPJZkNWdv3bKzlxXz4e0="/>
+        <field:input field="bookTitle" id="c_com_vmware_com_domain_Books_bookTitle" z="b5qoPkyHCLppYqns7JODsB2Yj6w="/>
+        <field:input field="bookAuthor" id="c_com_vmware_com_domain_Books_bookAuthor" z="C0qGPTaxx6VzOHotqAs/4nDXsyQ="/>
+        <field:datetime dateTimePattern="${books_bookpublishdate_date_format}" field="bookPublishDate" id="c_com_vmware_com_domain_Books_bookPublishDate" z="6TP+4dUhOpKTy8eoRRQyqBqNV7Y="/>
+        <field:checkbox field="bookAvailableInStock" id="c_com_vmware_com_domain_Books_bookAvailableInStock" z="PXOZx96PwzD2GdFHoViF0jGv79k="/>
+    </form:update>
+</div>

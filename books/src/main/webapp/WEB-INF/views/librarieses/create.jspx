@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_vmware_com_domain_Libraries" modelAttribute="libraries" path="/librarieses" render="${empty dependencies}" z="Qfn4ft5JJbgzbANjUl/KgR5umvo=">
+        <field:input field="libraryName" id="c_com_vmware_com_domain_Libraries_libraryName" z="aEsVKL9XuiDfcgDDBFePiHrRi+E="/>
+        <field:input field="libraryAddress" id="c_com_vmware_com_domain_Libraries_libraryAddress" z="wA+fZsIPr/Wm7Hdmo++lHMYB5H4="/>
+        <field:input field="numberOfBooks" id="c_com_vmware_com_domain_Libraries_numberOfBooks" validationMessageCode="field_invalid_integer" z="cZwGhT0KDtSnQLefZBOd3evWN84="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_vmware_com_domain_Libraries" render="${not empty dependencies}" z="TRJUVJgr5PyCwm65E86SVAE2gVs="/>
+</div>

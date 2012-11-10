@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:find finderName="ByBookAuthor" id="ff_com_vmware_com_domain_Books" path="/bookses" z="e7/4Tx9IupFOkxtocRpzSbmQTR8=">
+        <field:input disableFormBinding="true" field="bookAuthor" id="f_com_vmware_com_domain_Books_bookAuthor" z="mhQWQ9EijDVY2KDBFIYk2uV4LlY="/>
+    </form:find>
+</div>

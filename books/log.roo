@@ -1,0 +1,33 @@
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log opened at 2010-12-10 10:45:06
+project --topLevelPackage com.vmware.com --projectName BookStoreLab --java 6
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log closed at 2010-12-10 10:45:09
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log opened at 2010-12-10 10:46:14
+// [failed] script orig.roo
+persistence setup --database HYPERSONIC_PERSISTENT --provider HIBERNATE
+entity --class ~.domain.Books
+field number --fieldName bookISBN --type java.lang.Integer
+field string --fieldName bookTitle
+field string --fieldName bookAuthor
+field date --fieldName bookPublishDate --type java.util.Date
+field boolean --fieldName bookAvailableInStock
+finder add --finderName findBooksesByBookAvailableInStock
+finder add findBooksesByBookTitle
+finder add findBooksesByBookAuthor
+entity --class ~.domain.Libraries
+field string --fieldName libraryName
+field string --fieldName libraryAddress
+field number --fieldName numberOfBooks --type java.lang.Integer
+finder add --finderName findLibrariesesByLibraryName
+finder add --finderName findLibrariesesByNumberOfBooksGreaterThan
+controller all --package ~.web
+// script /Users/administrator/AppCloud/BookStoreLab/orig.roo
+controller all --package ~.web
+controller all --package ~.web
+controller all --package ~.web
+controller all --package ~.web
+controller all --package ~.web
+controller all --package ~.web
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log closed at 2010-12-10 17:42:15
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log opened at 2010-12-14 13:24:09
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log closed at 2010-12-14 17:56:18
+// Spring Roo 1.1.0.RELEASE [rev 793f2b0] log opened at 2011-01-24 15:22:00

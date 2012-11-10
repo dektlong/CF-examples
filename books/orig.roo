@@ -1,0 +1,17 @@
+persistence setup --database HYPERSONIC_PERSISTENT --provider HIBERNATE
+entity --class ~.domain.Books
+field number --fieldName bookISBN --type java.lang.Integer
+field string --fieldName bookTitle
+field string --fieldName bookAuthor
+field date --fieldName bookPublishDate --type java.util.Date
+field boolean --fieldName bookAvailableInStock
+finder add --finderName findBooksesByBookAvailableInStock
+finder add findBooksesByBookTitle
+finder add findBooksesByBookAuthor
+entity --class ~.domain.Libraries
+field string --fieldName libraryName
+field string --fieldName libraryAddress
+field number --fieldName numberOfBooks --type java.lang.Integer
+finder add --finderName findLibrariesesByLibraryName
+finder add --finderName findLibrariesesByNumberOfBooksGreaterThan
+controller all --package ~.web

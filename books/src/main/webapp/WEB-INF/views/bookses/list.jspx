@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_vmware_com_domain_Books" items="${bookses}" z="8neSVouAdxFTnmic+8gKJXVy/KU=">
+        <table:table data="${bookses}" id="l_com_vmware_com_domain_Books" path="/bookses" z="iyD/T+7v9UFBNL9lTtlIpIXyEeM=">
+            <table:column id="c_com_vmware_com_domain_Books_bookISBN" property="bookISBN" z="Cw20YHYdqK3+D1t+Q4bi5W3yog4="/>
+            <table:column id="c_com_vmware_com_domain_Books_bookTitle" property="bookTitle" z="ERl0I6xsbXd4A7zOZPZmgX9wSFc="/>
+            <table:column id="c_com_vmware_com_domain_Books_bookAuthor" property="bookAuthor" z="ukKhZ9KsgFIQCwFw7BrjwTP9G1k="/>
+            <table:column id="c_com_vmware_com_domain_Books_bookPublishDate" property="bookPublishDate" z="+uiuyW+c9guH5EB5grHPSkkaOWA="/>
+            <table:column id="c_com_vmware_com_domain_Books_bookAvailableInStock" property="bookAvailableInStock" z="E8H2vQ0Mxhc/VkD4aZRFIF8FUI0="/>
+        </table:table>
+    </page:list>
+</div>

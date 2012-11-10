@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_vmware_com_domain_Libraries" items="${librarieses}" z="aYSPbezL25M0n87TXlV/AV0j19M=">
+        <table:table data="${librarieses}" id="l_com_vmware_com_domain_Libraries" path="/librarieses" z="66Son4DxQmPRql0Iqw8r9KR0g0k=">
+            <table:column id="c_com_vmware_com_domain_Libraries_libraryName" property="libraryName" z="Eey/DToMZ2O72aPDeGWswQEBtl8="/>
+            <table:column id="c_com_vmware_com_domain_Libraries_libraryAddress" property="libraryAddress" z="5M87IwQzimvDzG53D3bqVne4j3U="/>
+            <table:column id="c_com_vmware_com_domain_Libraries_numberOfBooks" property="numberOfBooks" z="r9xiFfO2/oDCl+mMAaXvVUgG4ZM="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_vmware_com_domain_Libraries" object="${libraries}" path="/librarieses" z="DFYjLlJyqCB9giyM6ITwANYo2sA=">
+        <field:display field="libraryName" id="s_com_vmware_com_domain_Libraries_libraryName" object="${libraries}" z="EquHHhRIjUsI0WWpk+vgmEAD8Ss="/>
+        <field:display field="libraryAddress" id="s_com_vmware_com_domain_Libraries_libraryAddress" object="${libraries}" z="H7j/Py/005SD5ttLse1Qh0hJOjM="/>
+        <field:display field="numberOfBooks" id="s_com_vmware_com_domain_Libraries_numberOfBooks" object="${libraries}" z="gl2SFeAIcfxujwlPM+ed1k8Fa/Q="/>
+    </page:show>
+</div>

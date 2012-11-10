@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_vmware_com_domain_Libraries" modelAttribute="libraries" path="/librarieses" z="DOdaRWO1+tcWV9A9Z7VQcfaMZXs=">
+        <field:input field="libraryName" id="c_com_vmware_com_domain_Libraries_libraryName" z="aEsVKL9XuiDfcgDDBFePiHrRi+E="/>
+        <field:input field="libraryAddress" id="c_com_vmware_com_domain_Libraries_libraryAddress" z="wA+fZsIPr/Wm7Hdmo++lHMYB5H4="/>
+        <field:input field="numberOfBooks" id="c_com_vmware_com_domain_Libraries_numberOfBooks" validationMessageCode="field_invalid_integer" z="cZwGhT0KDtSnQLefZBOd3evWN84="/>
+    </form:update>
+</div>
